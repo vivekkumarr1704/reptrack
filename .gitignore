@@ -1,0 +1,20 @@
+# Secrets and local credentials
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Local app data
+data/reptrack_local.db
+ data/*.db
+ data/*.sqlite
+ data/*.sqlite3
+
+# Python build/runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+brainenv/
+.DS_Store
